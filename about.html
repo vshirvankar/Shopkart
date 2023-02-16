@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shopkart bootstarp</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="images/s1.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+	
+
+  <div id="preloader"></div>
+
+
+  <script>
+
+    let loader = document.getElementById("preloader");
+
+    window.addEventListener("load",sample);
+
+    function sample(){
+      loader.style.display = "none";
+    }
+
+  </script>
+	
+  <!-- nav -->
+
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark menu bgcolor">
+    <div class="container">
+      <div class="logo">
+      <a class="navbar-brand" href="index.html"><span>Shoppy</span>kart</a>
+    </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav m-auto">
+          <li><a class="nav-link " href="index.html">Home</a></li>
+          <li><a class="nav-link active" href="about.html">About</a></li>
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown10">
+              <a class="dropdown-item" href="product.html">Products</a>
+              <a class="dropdown-item" href="#">Products single</a>
+              <a class="dropdown-item" href="#">cart</a>
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown10">
+              <a class="dropdown-item" href="blog.html">Blog Page</a>
+              <a class="dropdown-item" href="#">Blog Single</a>
+              <a class="dropdown-item" href="#">Landing Single</a>
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Elements</a>
+            </div>
+          </li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+          <button class="btn" data-path="form-popup"><i class="fa fa-user me"></i><br>login</button>
+  <button class="btn" data-path="me-popup"><i class="fa fa-shopping-bag"></i><br>Cart</button>
+
+
+  <div class="modals">
+    <div class="modal-overlay">
+      <div class="modal modal--1" data-target="form-popup">
+        Login
+      </div>
+      <div class="modal modal--2" data-target="me-popup">
+       Cart
+      </div>
+    </div>
+  </div>
+    </div>
+    </nav>
+
+
+    <!-- <banner -->
+
+      <div class="banner" data-aos="fade-down"
+     data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>About Us</h2>
+            </div>
+
+            <div class="col-md-5">
+              
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- info -->
+
+      <div class="container" data-aos="zoom-in"
+     data-aos-duration="1000">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="info mt-5">
+              <strong>Our Info</strong>
+              <h2>About Our ShoppyKart</h2>
+              <p>Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions..</p>
+              <button><a href="#">Read More<i class="fa fa-arrow"></i></a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+        <!--  counter --> 
+
+          <div class="container" data-aos="fade-up"
+     data-aos-duration="1000">
+  <div class="row">
+    <br/>
+    
+
+  </div>
+  <div class="row text-center mt-5">
+    <div class="col">
+      <div class="counter">
+        <i class="fa fa-users fa-2x"></i>
+        <h2 class="timer count-title count-number" data-to="960" data-speed="1500"></h2>
+        <p class="count-text ">Happy Clients</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="counter">
+        <i class="fa fa-image fa-2x"></i>
+        <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+        <p class="count-text ">Projects</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="counter">
+        <i class="fa fa-mobile fa-2x"></i>
+        <h2 class="timer count-title count-number" data-to="1660" data-speed="1500"></h2>
+        <p class="count-text ">Hours Of Support</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="counter">
+        <i class="fa fa-users fa-2x"></i>
+        <h2 class="timer count-title count-number" data-to="860" data-speed="1500"></h2>
+        <p class="count-text ">Hard Workersnts</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- special -->
+
+            <div class="special mt-5 mb-5" data-aos="zoom-in"
+     data-aos-duration="1000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 serv">
+                    <strong>Our Special Offer</strong>
+                    <h1>Up To 60% Off Now<br>
+Enjoy The Season Sale</h1>
+                  </div>
+
+                  <div class="col-md-3 serv1">
+                    <button><a href="#">Contact</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- team -->
+
+            <div class="container">
+              <div class="section mt-5">
+                  <strong>Our Team</strong>
+                  <h2>Our Creative Team.</h2>
+                </div>
+              <div class="row">
+                <div class="col-md-4 mt-5"data-aos="fade-down"
+     data-aos-duration="1000">
+                  <div class="team1">
+                    <img src="images/team1.jpg" width="100%">
+                    <figcaption>
+                      <h4>Walter White</h4>
+                      <h5>Chief Executive Officer</h5>
+                    </figcaption>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mt-5" data-aos="fade-up"
+     data-aos-duration="1000">
+                  <div class="team1">
+                    <img src="images/team2.jpg" width="100%">
+                    <figcaption>
+                      <h4>Sarah Jhonson</h4>
+                      <h5>Product Manager</h5>
+                    </figcaption>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mt-5" data-aos="fade-down"
+     data-aos-duration="1000">
+                  <div class="team1">
+                    <img src="images/team3.jpg" width="100%">
+                    <figcaption>
+                      <h4>William Anderson</h4>
+                      <h5>Sales Manage</h5>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+<!-- footer -->
+  
+        <div class="footer mt-5">
+          <div class="container">
+            <div class="heading">
+              <h2>Special Offer All Branded Sandals are
+Flat 50% Discount</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-3" data-aos="fade-down"
+     data-aos-duration="1000">
+                <div class="user">
+                  <h3>USeful Links</h3>
+                  <ul>  
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">News & Media</a></li>
+                  <li><a href="#">Careers</a></li>        
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3" data-aos="fade-down"
+     data-aos-duration="1000">
+                <div class="user">
+                  <h3>Information</h3>
+                  <ul>  
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Delivery Terms</a></li>
+                  <li><a href="#">Order Tracking</a></li>
+                  <li><a href="#">Returns Policy</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">The Shop</a></li>        
+                  </ul>
+                </div>
+              </div>
+
+               <div class="col-md-3" data-aos="fade-down"
+     data-aos-duration="1000">
+                <div class="user">
+                  <h3>Address</h3>
+                  <p>London, UK
+998 13h Street, Office 436
+Harlo 61466</p>
+<ul class="f">
+<li><a href="#">+(21) 255 999 8888</a></li>
+<li><a href="#">ShoppyKart@mail.com</a></li>
+</ul>
+
+                </div>
+              </div>
+
+              <div class="col-md-3" data-aos="fade-down"
+     data-aos-duration="1000">
+                
+                  <div class="user4">
+                    <h3>Payment Method</h3>
+                    <ul>
+                      <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+                      <li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+                       <li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+                        <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+                         <li><a href="#"><i class="fa fa-cc-stripe"></i></a></li> 
+                          <li><a href="#"><i class="fa fa-cc-jcb"></i></a></li>
+                    </ul>
+                  </div>
+               
+              </div>
+
+
+
+                <div class="col-md-6 mt-4">
+                  <p style="color: #fff;padding: 20px 0;">© 2021 ShoppyKart. All rights reserved | Designed by <a href="#">W3layouts</a></p>
+                </div>
+
+                <div class=" offset-3 col-md-3 mt-4">
+                  <div class="user1 mr-auto">
+                    <ul>
+                      <li><a href="https://www.facebook.com/" target="blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://web.whatsapp.com/" target="blank" title="whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+                      <li><a href="https://www.instagram.com/" target="blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.youtube.com/" target="blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Back to top button -->
+<a id="button"></a>
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script>
+  // number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
+</script>
+
+
+<script>
+  $(document).ready(function(){
+    pagenum = 1;
+    function AutoRotate() {
+       var myele = null;
+       var allElements = document.getElementsByTagName('label');
+       for (var i = 0, n = allElements.length; i < n; i++) {
+         var myfor = allElements[i].getAttribute('for');
+         if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
+           allElements[i].click();
+           break;
+         }
+       }
+       if (pagenum == 4) {
+         pagenum = 1;
+       } else {
+         pagenum++;
+       }
+    }
+    setInterval(AutoRotate, 5000);
+  });
+</script>
+
+<!-- bottom to top  -->
+<script type="text/javascript">
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+</script>
+<!-- end -->
+
+<!-- aos animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- end animation -->
+<script>
+  function scrollValue() {
+    var navbar = document.getElementById('navbar');
+    var scroll = window.scrollY;
+    if (scroll < 200) {
+        navbar.classList.remove('BgColour');
+    } else {
+        navbar.classList.add('BgColour');
+    }
+}
+
+window.addEventListener('scroll', scrollValue);
+</script>
+
+<!-- video button -->
+<script>
+  $('#play-video').on('click', function(e){
+  e.preventDefault();
+  $('#video-overlay').addClass('open');
+  $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
+});
+
+$('.video-overlay, .video-overlay-close').on('click', function(e){
+  e.preventDefault();
+  close_video();
+});
+
+$(document).keyup(function(e){
+  if(e.keyCode === 27) { close_video(); }
+});
+
+function close_video() {
+  $('.video-overlay.open').removeClass('open').find('iframe').remove();
+};
+</script>
+<script>
+  
+// vars
+'use strict'
+var testim = document.getElementById("testim"),
+    testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+    testimLeftArrow = document.getElementById("left-arrow"),
+    testimRightArrow = document.getElementById("right-arrow"),
+    testimSpeed = 4500,
+    currentSlide = 0,
+    currentActive = 0,
+    testimTimer,
+    touchStartPos,
+    touchEndPos,
+    touchPosDiff,
+    ignoreTouch = 30;
+;
+
+window.onload = function() {
+
+    // Testim Script
+    function playSlide(slide) {
+        for (var k = 0; k < testimDots.length; k++) {
+            testimContent[k].classList.remove("active");
+            testimContent[k].classList.remove("inactive");
+            testimDots[k].classList.remove("active");
+        }
+
+        if (slide < 0) {
+            slide = currentSlide = testimContent.length-1;
+        }
+
+        if (slide > testimContent.length - 1) {
+            slide = currentSlide = 0;
+        }
+
+        if (currentActive != currentSlide) {
+            testimContent[currentActive].classList.add("inactive");            
+        }
+        testimContent[slide].classList.add("active");
+        testimDots[slide].classList.add("active");
+
+        currentActive = currentSlide;
+    
+        clearTimeout(testimTimer);
+        testimTimer = setTimeout(function() {
+            playSlide(currentSlide += 1);
+        }, testimSpeed)
+    }
+
+    testimLeftArrow.addEventListener("click", function() {
+        playSlide(currentSlide -= 1);
+    })
+
+    testimRightArrow.addEventListener("click", function() {
+        playSlide(currentSlide += 1);
+    })    
+
+    for (var l = 0; l < testimDots.length; l++) {
+        testimDots[l].addEventListener("click", function() {
+            playSlide(currentSlide = testimDots.indexOf(this));
+        })
+    }
+
+    playSlide(currentSlide);
+
+    // keyboard shortcuts
+    document.addEventListener("keyup", function(e) {
+        switch (e.keyCode) {
+            case 37:
+                testimLeftArrow.click();
+                break;
+                
+            case 39:
+                testimRightArrow.click();
+                break;
+
+            case 39:
+                testimRightArrow.click();
+                break;
+
+            default:
+                break;
+        }
+    })
+    
+    testim.addEventListener("touchstart", function(e) {
+        touchStartPos = e.changedTouches[0].clientX;
+    })
+  
+    testim.addEventListener("touchend", function(e) {
+        touchEndPos = e.changedTouches[0].clientX;
+      
+        touchPosDiff = touchStartPos - touchEndPos;
+      
+        console.log(touchPosDiff);
+        console.log(touchStartPos); 
+        console.log(touchEndPos); 
+
+      
+        if (touchPosDiff > 0 + ignoreTouch) {
+            testimLeftArrow.click();
+        } else if (touchPosDiff < 0 - ignoreTouch) {
+            testimRightArrow.click();
+        } else {
+          return;
+        }
+      
+    })
+}
+
+
+</script>
+
+<script type="text/javascript">
+  (function($) {
+  $.fn.countTo = function(options) {
+    options = options || {};
+
+    return $(this).each(function() {
+      // set options for current element
+      var settings = $.extend(
+        {},
+        $.fn.countTo.defaults,
+        {
+          from: $(this).data("from"),
+          to: $(this).data("to"),
+          speed: $(this).data("speed"),
+          refreshInterval: $(this).data("refresh-interval"),
+          decimals: $(this).data("decimals")
+        },
+        options
+      );
+
+      // how many times to update the value, and how much to increment the value on each update
+      var loops = Math.ceil(settings.speed / settings.refreshInterval),
+        increment = (settings.to - settings.from) / loops;
+
+      // references & variables that will change with each update
+      var self = this,
+        $self = $(this),
+        loopCount = 0,
+        value = settings.from,
+        data = $self.data("countTo") || {};
+
+      $self.data("countTo", data);
+
+      // if an existing interval can be found, clear it first
+      if (data.interval) {
+        clearInterval(data.interval);
+      }
+      data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+      // initialize the element with the starting value
+      render(value);
+
+      function updateTimer() {
+        value += increment;
+        loopCount++;
+
+        render(value);
+
+        if (typeof settings.onUpdate == "function") {
+          settings.onUpdate.call(self, value);
+        }
+
+        if (loopCount >= loops) {
+          // remove the interval
+          $self.removeData("countTo");
+          clearInterval(data.interval);
+          value = settings.to;
+
+          if (typeof settings.onComplete == "function") {
+            settings.onComplete.call(self, value);
+          }
+        }
+      }
+
+      function render(value) {
+        var formattedValue = settings.formatter.call(self, value, settings);
+        $self.html(formattedValue);
+      }
+    });
+  };
+
+  $.fn.countTo.defaults = {
+    from: 0, // the number the element should start at
+    to: 0, // the number the element should end at
+    speed: 1000, // how long it should take to count between the target numbers
+    refreshInterval: 100, // how often the element should be updated
+    decimals: 0, // the number of decimal places to show
+    formatter: formatter, // handler for formatting the value before rendering
+    onUpdate: null, // callback method for every time the element is updated
+    onComplete: null // callback method for when the element finishes updating
+  };
+
+  function formatter(value, settings) {
+    return value.toFixed(settings.decimals);
+  }
+})(jQuery);
+
+jQuery(function($) {
+  // custom formatting example
+  $(".count-number").data("countToOptions", {
+    formatter: function(value, options) {
+      return value
+        .toFixed(options.decimals)
+        .replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+    }
+  });
+
+  // start all the timers
+  $(".timer").each(count);
+
+  function count(options) {
+    var $this = $(this);
+    options = $.extend({}, options || {}, $this.data("countToOptions") || {});
+    $this.countTo(options);
+  }
+});
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+</script>
+
+<script>
+  const btns = document.querySelectorAll('.btn');
+const modalOverlay = document.querySelector('.modal-overlay ');
+const modals = document.querySelectorAll('.modal');
+
+btns.forEach((el) => {
+  el.addEventListener('click', (e) => {
+    let path = e.currentTarget.getAttribute('data-path');
+
+    modals.forEach((el) => {
+      el.classList.remove('modal--visible');
+    });
+
+    document.querySelector(`[data-target="${path}"]`).classList.add('modal--visible');
+    modalOverlay.classList.add('modal-overlay--visible');
+  });
+});
+
+modalOverlay.addEventListener('click', (e) => {
+  if (e.target == modalOverlay) {
+    modalOverlay.classList.remove('modal-overlay--visible');
+    modals.forEach((el) => {
+      el.classList.remove('modal--visible');
+    });
+  }
+});
+</script>
+</html>
+
+
+         
